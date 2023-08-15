@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -7,13 +6,16 @@
     <Title>ProductivityTools.PhotoGallery.CoreObjects</Title>
     <RepositoryUrl>https://github.com/ProductivityTools-PhotoGallery/ProductivityTools.PhotoGallery.CoreObjects</RepositoryUrl>
     <PackageIcon>Icon.png</PackageIcon>
+    <PackageId>ProductivityTools.PhotoGallery.CoreObjects</PackageId>
+    <Version>0.0.2</Version>
+    <Authors>Pawel Wujczyk</Authors>
+    <Company>ProductivityTools</Company>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="..\Images\Icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
 </Project>
