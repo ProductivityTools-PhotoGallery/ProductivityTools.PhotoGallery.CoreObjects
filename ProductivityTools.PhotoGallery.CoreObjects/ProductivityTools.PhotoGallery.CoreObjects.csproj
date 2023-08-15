@@ -7,13 +7,18 @@
     <RepositoryUrl>https://github.com/ProductivityTools-PhotoGallery/ProductivityTools.PhotoGallery.CoreObjects</RepositoryUrl>
     <PackageIcon>Icon.png</PackageIcon>
     <PackageId>ProductivityTools.PhotoGallery.CoreObjects</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>Pawel Wujczyk</Authors>
     <Company>ProductivityTools</Company>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\Images\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
