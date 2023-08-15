@@ -5,6 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>ProductivityTools.PhotoGallery.CoreObjects</Title>
+    <RepositoryUrl>https://github.com/ProductivityTools-PhotoGallery/ProductivityTools.PhotoGallery.CoreObjects</RepositoryUrl>
+    <PackageIcon>Icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Images\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
