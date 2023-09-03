@@ -4,12 +4,12 @@
     {
         public Gallery()
         {
-            this.ImageList = new List<Image>();
-            this.ImageSizes = new List<int>();
+            this.PhotoList = new List<Photo>();
+            this.PhotoSizes = new List<int>();
         }
         public List<string> ReadGmails { get; set; }
 
-        public List<Image> ImageList { get; set; }
-        public List<int> ImageSizes { get; set; }
+        public List<Photo> PhotoList { get; set; }
+        public List<int> PhotoSizes { get; set; }
     }
 }

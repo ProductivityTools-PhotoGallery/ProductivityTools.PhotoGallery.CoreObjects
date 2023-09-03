@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProductivityTools.PhotoGallery.CoreObjects
 {
-    public class Image
+    public  class Consts
     {
-        public string Name { get; set; }
-        public int Width { get; set; }
-        public int Height { get; set; }
+        public const string MetadataName = ".photo.json";
     }
 }
